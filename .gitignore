@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (대용량 3D 원본 / 이미지 데이터셋은 Git 추적 제외)
+data/source_3d/
+data/raw/
+data/processed/
+
+# ML model / weight files
+*.pt
+*.pth
+*.onnx
+
+# Blender source files
+*.blend
+*.blend1
